@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML</title>
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="Purnadip.css">
+    <!-- Link JavaScript file -->
+    <script src="Purnadip.js"></script>
+
+</head>
+
+<body>
+    <!-- 6 headings of different size -->
+    <h1>Heading_1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading_3</h3>
+    <h4>Heading_4</h4>
+    <h5>Heading_5</h5>
+    <h6>Heading_6</h6>
+    <!-- Paragraph tag -->
+    <p> This is a paragraph</p>
+    <!-- Lorem100 -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem accusantium ipsam repudiandae libero numquam
+        quasi nobis, dolorum a, porro suscipit, inventore aperiam vitae placeat provident non quam nulla sapiente nisi
+        eum accusamus doloremque! Rem, aperiam ex debitis dicta velit neque veritatis in distinctio dignissimos pariatur
+        unde quod tempora. Officiis reiciendis deserunt perspiciatis ipsa quo deleniti amet minus omnis ducimus quis,
+        eos dolorem, expedita sed esse quaerat qui distinctio architecto harum voluptatum iure officia! Delectus
+        facilis, dignissimos tempore quae blanditiis ex quas quis voluptatem pariatur eos autem corporis ea vero, non
+        odio optio dolore vel excepturi. Ducimus deserunt officia quo voluptates!</p>
+    <!-- p*4  -->
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <!-- Strong is for bold and em by default is for italics..br is for line break and hr is for horizontal rule -->
+    <p>Lorem ipsum dolor sit. <strong>Lorem ipsum dolor sit.</strong>Lorem,<br> ipsum.<em>Lorem ipsum dolor
+            sit.</em>Lorem, ipsum.</p>
+    <hr>
+    <!-- br, hr, b and i not recommended -->
+    <p>Lorem, ipsum.<b>Lorem, ipsum.</b>Lorem, ipsum.<i>Lorem, ipsum.</i>Lorem, ipsum.</p>
+
+
+    <!-- Links and Images -->
+    <!-- Opens Google in new tab -->
+    <a href="https://google.com" target="_blank">Go to Google</a>
+    <!-- Opens image and if not loaded then shows alt message -->
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.digitaltrends.com%2Fcars%2Fmost-expensive-cars-in-the-world%2F&psig=AOvVaw3m4CdZNz65im8uX3Np6Fhg&ust=1599931442155000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjcv6TP4esCFQAAAAAdAAAAABAD"
+        alt="Bugati">
+    <!-- Height and Width attribute not recommended -->
+
+    <!-- Lists and Tables -->
+    <!-- Unordered list -->
+    <ul type="square">
+        <li>First item</li>
+        <li>Second item</li>
+    </ul>
+    <!-- Ordered lists  -->
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <ul type="circle">
+            <li>Second-1</li>
+            <li>Second-2</li>
+        </ul>
+    </ol>
+    <!-- Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Purnadip</td>
+                <td>Chakrabarti</td>
+            </tr>
+            <tr>
+                <td>Purnendu</td>
+                <td>Chakrabarti</td>
+            </tr>
+            <tr>
+                <td>Soma</td>
+                <td>Chakrabarti</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Forms and Input tags -->
+    <form action="Backend.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="Myname" id="name">
+        </div>
+        <div>
+            Are you Eligible?: <input type="checkbox" name="Myeligibility" checked>
+        </div>
+        <div>
+            Gender: Male<input type="radio" name="mygender"> Female<input type="radio" name="mygender">
+        </div>
+        <div>
+            Date: <input type="date" name="mydate">
+        </div>
+        <div>
+            Age: <input type="number" name="myage">
+        </div>
+        <div>
+            Write about you:<textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="car">Select Car</label>
+            <select name="myCar" id="car">
+                <option value="Santro">Santro</option>
+                <option value="Rapid" selected>Rapid</option>
+            </select>
+        </div>
+        <div>
+            <input type="reset" value="Reset all entries">
+            <input type="submit" value="Submit now">
+        </div>
+    </form>
+
+    <!-- Classes and ids -->
+    <div id="mainbox" class="RedBg Blackborder">Hello World</div>
+    <!-- span.redBg.blackBorder -->
+    <span class="redBg blackBorder">use of Emmet Abbreviation for class of span</span>
+    <!-- span#mainspan  -->
+    <span id="mainspan">use of Emmet Abbreviation for id of span</span>
+
+    <p>This was my first &nbsp;&nbsp; HTML Document</p>
+</body>
+
+</html>
