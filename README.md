@@ -18,4 +18,5 @@ Rules:
 Ex: `<a href=/CWP/helloworld.html>Hello World Page</a>`
 2. Add your name and GitHub profile link on CONTRIBUTORS.md.
 Ex: `- Derpyhsi https://github.com/Derpyhsi`
+Bonus: If you created a code snippet, add it to the code snippet page.
 ```
