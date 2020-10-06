@@ -4,13 +4,34 @@ body {
 	color: black;
 }
 
-/* column code
+div.snippet {
+	border-style: inset;
+	border-width: 1px;
+}
+
+div.snippet i {
+	float: right;
+}
+
+div.snippet br {
+	clear:right;
+}
+
+div.snippet iframe {
+	border-top-style: inset;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-top-width: 1px;
+	width: 100%;
+	max-height: 6em;
+}
+
 .half-column {
 	float: left;
-	width: 50%;
+	min-width: 50%;
 }
-.quarter-column {
+.quarter-column, div.snippet {
 	float: left;
-	width: 25%;
+	min-width: 25%;
 }
-*/
