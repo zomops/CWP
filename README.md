@@ -1,2 +1,2 @@
-# Community
-A community website based on webpages made by contributors.
+# Community Website Project
+A project based on a community website made by contributers.
