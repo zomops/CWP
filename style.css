@@ -1,0 +1,16 @@
+body {
+	background-color: azure;
+	text-shadow: 1px 1px gray;
+	color: black;
+}
+
+/* column code
+.half-column {
+	float: left;
+	width: 50%;
+}
+.quarter-column {
+	float: left;
+	width: 25%;
+}
+*/
