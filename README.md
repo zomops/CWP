@@ -11,7 +11,8 @@ Once the project has grown enough, it will be on it's own custom domain and any 
 
 Objective: 
 ``` 
-Create webpages using HTML, CSS, and JS! Anyone can contribute as long as it stays appropriate. (No swearing, No sexual content, No racist/sexist content, etc.) 
+Create webpages using HTML, CSS, and JS! Anyone can contribute anything as long as it stays appropriate. 
+(No swearing, No sexual content, No racist/sexist content, etc.) 
 Rules:
 1. Once you created your page, add a link on `index.html` linking to your page.
 Ex: `<a href=/CWP/helloworld.html>Hello World Page</a>`
