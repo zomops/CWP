@@ -7,4 +7,4 @@ The end goal plan is to interlink all the pages together into one big website. :
 
 This project was inspiried by https://hacktoberfest.digitalocean.com/
 
-Once the project has grown enough, it will be on a custom domain and any changes will be real-time.
+Once the project has grown enough, it will be on it's own custom domain and any changes will be in real-time.
