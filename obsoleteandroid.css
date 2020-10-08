@@ -1,0 +1,45 @@
+/*
+for my page @ obsoleteandroid.html
+please do not modify it but feel free to use it / copy it and edit it
+*/
+
+/*Main body text*/
+body, html {
+    background-color: rgb(245,245,255);
+    font-family: 'Lucida Console', sans-serif;
+    font-size: 14;
+    height: 100%;
+    text-shadow: 1px 1px gray;
+    font-style: normal;
+}
+/*h1 formatting*/
+h1 {
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold;
+}
+/*custom italic font class*/
+.italics-text {
+    font-family: 'Lucida Console', sans-serif;
+    height: 100%;
+    text-shadow: 1px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
