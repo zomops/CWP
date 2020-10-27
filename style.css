@@ -1,0 +1,172 @@
+
+* {
+    margin: 0px;
+    padding: 0px; 
+    outline: none;
+    border: 0px;
+}
+
+body, html {
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 1px 1px gray;
+    height: 100%;
+}
+
+.row {
+    color: crimson;
+    text-align: center;
+    position: relative;
+}
+
+h1, h2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+
+#top-row {
+    background-color: aquamarine;
+    height: 60%;
+}
+
+#bottom-row {
+    background-color: lightpink;
+    height: 40%;
+}
+body {
+	font-family: open sans,Arial,Helvetica Neue,sans-serif;
+	background: linear-gradient(270deg, #1318a2, #006d97, #a31fff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1, h2{
+    text-align: center;
+}
+
+a.linkButton{
+    text-decoration: none;
+    color:#00035e;
+    font-size: 20px;
+    border:2px solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px;
+    display: block;
+    width: 200px;
+    margin: 7px auto 0;
+}
+a:hover{
+    text-shadow: 0px 1px 2px #00035e;
+}
+
+h1.h1Title{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #00035e;
+    text-shadow: 0px 1px 4px #00035e;
+	padding: 10px 0 0;    
+	margin: 12px 0;
+}
+
+.helloWorldBtn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size:30px;
+    font-weight: bold;
+    color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    background-clip: text;
+	-webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
+    margin: 20px auto 0;
+    padding:6px 10px 10px;
+    width:270px;
+    border:2px solid;
+    border-radius: 5px;
+}
+
+.helloWorldBtn:hover{
+    text-shadow: none;
+}
+
+@keyframes hue {
+	from {
+		-webkit-filter: hue-rotate(0deg);
+	}
+	to {
+		-webkit-filter: hue-rotate(-360deg);
+	}
+}
+
+h2{
+    font-size: 25px;
+    color: #0f008a;
+    margin:0 0;
+}
+
+body{
+	background-color: rgb(207, 205, 205);
+}
+.indexdiv{
+	background-color: rgb(42, 93, 102);
+	
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 8px;
+	margin-bottom: 20px;
+
+}
+#helloworld{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+
+.thirddiv{
+	
+	display: flex;
+	
+	background-color: rgb(5, 50, 68);
+	border: 1px solid black;
+	border-radius: 8px;
+	display:flex;
+	flex-direction:column;
+	color: white;
+	text-align: center;
+	
+}
+.link{
+	color:white;
+
+}
+
