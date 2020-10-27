@@ -7,3 +7,4 @@
 - Fariyal Ajrad https://github.com/FaryalAjradh
 - Anandh Gopal https://github.com/happeecoder
 - AldenBluetenberger https://github.com/AldenBluetenberger
+- itscomradeBANANA https://github.com/itscomradeBANANA
